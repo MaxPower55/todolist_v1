@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+<div id="body-disable"></div>
+
+    <div class="todo__wrapper">
+        
+        <div class="todo__header">
+            <p class="header__text">ToDo List</p>
+            <div class="header__controls">
+                <input type="button" value="clear" class="todo__clear">
+                <select class="todo__options">
+                    <option value="all" data-todo-option="all">показать все</option>
+                    <option value="active" data-todo-option="active">активные</option>
+                    <option value="completed" data-todo-option="completed">завершённые</option>
+                    <option value="deleted" data-todo-option="deleted">удалённые</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="todo__input">
+            <input type="text" placeholder="Введите текст" class="todo__inputtext">
+            <input type="button" value="" class="todo__addbutton">
+        </div>
+
+        <div class="todo__body">
+            
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
