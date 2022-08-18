@@ -81,5 +81,6 @@ function action(e) {
 };
 
 todoWrapper.addEventListener('click', action, false);
+todoWrapper.addEventListener('touchend', action, false);
 
 init();
